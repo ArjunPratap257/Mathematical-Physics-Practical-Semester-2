@@ -1,17 +1,17 @@
 # Mathematical-Physics-Practical-Semester-2
 
-# ================================================================
+# ================================
 # MATHEMATICAL PHYSICS - 2
 # Motilal Nehru College, University of Delhi
 # All 14 Programs
-# ================================================================
+# ================================
 
 
-# ================================================================
+# ================================
 # PROGRAMME - 01
 # AIM: Approximate nth root of a number up to a given number of
 #      significant digits using Newton-Raphson method.
-# ================================================================
+# ================================
 
 def newton_raphson_nth_root(number, n, initial_guess, tolerance):
     # define the function whose root we want to find
