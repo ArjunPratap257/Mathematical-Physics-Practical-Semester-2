@@ -48,11 +48,11 @@ root = newton_raphson_nth_root(number, n, initial_guess, tolerance)
 print("the approximate nth root is : ", root)
 
 
-# ================================================================
+# ==============================
 # PROGRAMME - 02
 # AIM: Approximate nth root of a number up to a given number of
 #      significant digits using Bisection method.
-# ================================================================
+# ==============================
 
 def bisection_nth_root(n, m, digits):
     # define the function whose root we want to find
@@ -88,11 +88,11 @@ root = bisection_nth_root(n, m, digits)
 print("the nth root of ", m, "is approximately: ", root)
 
 
-# ================================================================
+# ==============================
 # PROGRAMME - 03
 # AIM: Approximate nth root of a number up to a given number of
 #      significant digits using Secant method.
-# ================================================================
+# ==============================
 
 def secant_nth_root(number, n, x0, x1, tolerance):
     # nested function representing the function whose root we are trying to find
@@ -121,11 +121,11 @@ root = secant_nth_root(number, n, initial_guess1, initial_guess2, tolerance)
 print("the nth root is approximately: ", root)
 
 
-# ================================================================
+# =============================
 # PROGRAMME - 04
 # AIM: Determine the depth up to which a spherical homogeneous
 #      object sinks into a fluid using Bisection method.
-# ================================================================
+# =============================
 
 import math
 
@@ -171,11 +171,11 @@ else:
     bisection(a, b, n, object_density, fluid_density)
 
 
-# ================================================================
+# ===============================
 # PROGRAMME - 05
 # AIM: Determine the depth up to which a spherical homogeneous
 #      object sinks into a fluid using Secant method.
-# ================================================================
+# ===============================
 
 import math
 
@@ -217,11 +217,11 @@ else:
     print("unable to find the depth within the specified tolerance and maximum number of iterations.")
 
 
-# ================================================================
+# ==========================
 # PROGRAMME - 06
 # AIM: Solve transcendental equation like a = tan(a)
 #      using Secant method.
-# ================================================================
+# ==========================
 
 import math
 
@@ -262,11 +262,11 @@ else:
     print("unable to find the root within the specified and maximum number of iterations: ")
 
 
-# ================================================================
+# ===========================
 # PROGRAMME - 07
 # AIM: Solve transcendental equation like a = tan(a)
 #      using Newton-Raphson method.
-# ================================================================
+# ===========================
 
 import math
 
@@ -313,11 +313,11 @@ else:
     print("unable to find the root within the specified olerance and maximum number of iterations.")
 
 
-# ================================================================
+# ==========================
 # PROGRAMME - 08
 # AIM: Least squares fitting for linear equation y = ax + b
 #      and determine parameters with uncertainties.
-# ================================================================
+# ==========================
 
 import matplotlib.pyplot as plt
 from scipy.stats import linregress
@@ -368,11 +368,11 @@ n = int(input("input the number of elements= "))
 print(fit(n))
 
 
-# ================================================================
+# ===========================
 # PROGRAMME - 09
 # AIM: Least squares fitting for power law y = ax^b
 #      and estimate parameters with uncertainties.
-# ================================================================
+# ===========================
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -414,11 +414,11 @@ plt.legend()
 plt.show()
 
 
-# ================================================================
+# ============================
 # PROGRAMME - 10
 # AIM: Least squares fitting for exponential law y = ae^(bx)
 #      and estimate parameters with uncertainties.
-# ================================================================
+# ============================
 
 import numpy as np
 import array as arr
@@ -476,11 +476,11 @@ for i in range(0, n):
 print(fit(x, y))
 
 
-# ================================================================
+# ==============================
 # PROGRAMME - 11
 # AIM: Generate and plot Legendre polynomials using series
 #      expansion and verify recurrence relation.
-# ================================================================
+# ==============================
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -526,11 +526,11 @@ for n in range(2, 6):
     print(f"n = {n}, max error = {error:.6e}")
 
 
-# ================================================================
+# =============================
 # PROGRAMME - 12
 # AIM: Generate and plot Hermite polynomials using series
 #      expansion and verify recurrence relation.
-# ================================================================
+# =============================
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -562,11 +562,11 @@ plt.grid()
 plt.show()
 
 
-# ================================================================
+# =============================
 # PROGRAMME - 13
 # AIM: Verify the orthogonality of Legendre polynomials
 #      using integral property over [-1, 1].
-# ================================================================
+# =============================
 
 import numpy as np
 from numpy.polynomial.legendre import Legendre
@@ -591,11 +591,11 @@ def verify_legendre_orthogonality(n_max):
 verify_legendre_orthogonality(2)
 
 
-# ================================================================
+# =============================
 # PROGRAMME - 14
 # AIM: Verify the properties of the Dirac Delta function
 #      using its representation as a sequence of functions.
-# ================================================================
+# =============================
 
 import numpy as np
 from scipy.integrate import quad
