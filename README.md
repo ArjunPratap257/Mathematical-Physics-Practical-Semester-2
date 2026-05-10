@@ -4,7 +4,6 @@
 # MATHEMATICAL PHYSICS - 2
 # Motilal Nehru College, University of Delhi
 # All 14 Programs
-# ================================
 
 
 # ================================
